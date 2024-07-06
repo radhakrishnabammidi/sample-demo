@@ -2,7 +2,7 @@ name: simple test
 on : [push]
 jobs:
  - name: test
- runs_on: ip-10-0-1-23
- steps:
-   - name: test
-     run: echo "hello world"
+     runs_on:Self-hosted
+     steps:
+       - name: test
+         run: echo "hello world"
